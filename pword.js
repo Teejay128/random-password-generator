@@ -67,19 +67,23 @@ const copyText = (event) => {
     case "firstCopy":
       board = "first";
       console.log(copy, board);
+      alert('copied first password');
       break;
     case "secondCopy":
       variable = copy
       board = "second";
       console.log(copy, board);
+      alert('copied first password');
       break;
     case "thirdCopy":
       board = "third";
       console.log(copy, board);
+      alert('copied first password');
       break;
     case "fourthCopy":
       board = "fourth";
       console.log(copy, board);
+      alert('copied first password');
       break;
     default:
       console.log("undesired element");
